@@ -4,20 +4,13 @@
 //
 #include <cstdint>
 #include <iostream>
+
+#include"start_init.hpp"
 //
-#include"start_init.h"
-//
+
 int main(int argc, char* argv[])
 {
-    init_proc();
-    while (!glfwWindowShouldClose(window))
-    {
-        glfwPollEvents();
-        // future update code
-        // future render code
-    }
-
-    glfwDestroyWindow(window);
-    glfwTerminate();
+    _init _init_;
+    _init_.Run();
     return 0;
 }

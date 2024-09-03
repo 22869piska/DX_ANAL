@@ -140,9 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="start_init.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="start_init.h" />
+    <ClInclude Include="start_init.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
